@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name= "fname" value = "//input[@name='fname']"></parameter>
+<parameter name ="value" value= "Mohana"></parameter>
+<parameter name="hidden" value="//input[@name='Hidden']"></parameter>
+<parameter name ="hiddenvalue" value= "Lakshmi"></parameter>
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="org.testblog.LocatorsBlog"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

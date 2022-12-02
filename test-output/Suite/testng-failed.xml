@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="fname" value="//input[@name=&#039;fname&#039;]"/>
+  <parameter name="lname" value="//input[@name=&#039;lname&#039;]"/>
+  <parameter name="value1" value="Lakshmi"/>
+  <parameter name="value" value="Mohana"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.testblog.LocatorsBlog">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="test1" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- org.testblog.LocatorsBlog -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

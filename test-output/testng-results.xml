@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22843" started-at="2022-11-27T17:38:59Z" finished-at="2022-11-27T17:39:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22843" started-at="2022-11-27T17:38:59Z" finished-at="2022-11-27T17:39:22Z">
+      <class name="org.adactin.AdactinMainTask">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="beforeClass" is-config="true" duration-ms="19091" started-at="2022-11-27T17:38:59Z" finished-at="2022-11-27T17:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="TestA" duration-ms="1013" started-at="2022-11-27T17:39:18Z" finished-at="2022-11-27T17:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-11-27T17:39:18Z" finished-at="2022-11-27T17:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-11-27T17:39:19Z" finished-at="2022-11-27T17:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-11-27T17:39:19Z" finished-at="2022-11-27T17:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TestB()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="TestB" duration-ms="2709" started-at="2022-11-27T17:39:19Z" finished-at="2022-11-27T17:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-11-27T17:39:22Z" finished-at="2022-11-27T17:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:org.adactin.AdactinMainTask@56ac3a89]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-11-27T17:39:22Z" finished-at="2022-11-27T17:39:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- org.adactin.AdactinMainTask -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
